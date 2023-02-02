@@ -6,8 +6,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0e6dfd;
   --bs-blue-viix: #09a4de;
+  --bs-blue: #0e6dfd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -38,7 +38,6 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 13, 110, 253;
-  --bs-primary-viix-rgb: 9, 164, 222;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -46,6 +45,27 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+  --bs-bluesky-rgb: 9, 164, 222;
+  --bs-blue-rgb: 14, 109, 253;
+  --bs-indigo-rgb: 102, 16, 242;
+  --bs-purple-rgb: 111, 66, 193;
+  --bs-pink-rgb: 214, 51, 132;
+  --bs-red-rgb: 220, 53, 69;
+  --bs-orange-rgb: 253, 126, 20;
+  --bs-yellow-rgb: 255, 193, 7;
+  --bs-green-rgb: 25, 135, 84;
+  --bs-teal-rgb: 32, 201, 151;
+  --bs-cyan-rgb: 13, 202, 240;
+  --bs-vyolet-rgb: 187, 41, 187;
+  --bs-bluevyolet-rgb: 128, 51, 224;
+  --bs-rose-rgb: 255, 62, 181;
+  --bs-brown-rgb: 177, 85, 51;
+  --bs-darkblue-rgb: 0, 79, 113;
+  --bs-darkgreen-rgb: 0, 177, 64;
+  --bs-blue-theme-rgb: 72, 169, 197;
+  --bs-red-max-rgb: 253, 53, 51;
+  --bs-green-max-rgb: 25, 240, 64;
+  --bs-color0-rgb: 246, 173, 128;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-rgb: 33, 37, 41;
@@ -7654,11 +7674,6 @@ textarea.form-control-lg {
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-viix-primary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-viix-rgb), var(--bs-text-opacity)) !important;
-}
-
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
@@ -7750,11 +7765,6 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-viix-primary {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-viix-rgb), var(--bs-bg-opacity)) !important;
-}
-
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -7788,6 +7798,112 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-viix-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-bluesky-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-blue {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-blue-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-indigo {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-indigo-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-purple {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-purple-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-pink {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-pink-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-red {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-red-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-orange {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-orange-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-yellow {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-yellow-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-green {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-green-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-teal {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-teal-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-cyan {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-cyan-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-vyolet {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-vyolet-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-bluevyolet {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-bluevyolet-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-rose {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-rose-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-brown {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-brown-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-darkblue {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-darkblue-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-darkgreen {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-darkgreen-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-blue-theme {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-blue-theme-rgb), var(--bs-bg-opacity)) !important;
+}
+
+
+.bg-red-max {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-red-max-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-green-max {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-green-max-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-color0 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-color0-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
