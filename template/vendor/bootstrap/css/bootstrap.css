@@ -7,6 +7,7 @@
  */
 :root {
   --bs-blue: #0e6dfd;
+  --bs-blue-viix: #09a4de;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -37,6 +38,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 13, 110, 253;
+  --bs-primary-viix-rgb: 9, 164, 222;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -7652,6 +7654,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-viix-primary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-viix-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
@@ -7741,6 +7748,11 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-viix-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-viix-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {

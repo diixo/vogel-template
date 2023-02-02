@@ -48,6 +48,14 @@ body {
     width: 3rem;
     font-size: 1.5rem;
 }
+.feature-viix {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+}
 
 /* Slider */
 .slick-track{
