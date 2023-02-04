@@ -57,19 +57,20 @@
   --bs-teal-rgb: 32, 201, 151;
   --bs-cyan-rgb: 13, 202, 240;
   --bs-vyolet-rgb: 187, 41, 187;
-  --bs-bluevyolet-rgb: 128, 51, 224;
+  --bs-bluevyolet-rgb: 128, 51, 192;
   --bs-rose-rgb: 255, 62, 181;
   --bs-brown-rgb: 177, 85, 51;
   --bs-darkblue-rgb: 0, 79, 113;
   --bs-darkgreen-rgb: 0, 176, 0;
   --bs-blue-theme-rgb: 35, 142, 188;
   --bs-red-max-rgb: 253, 53, 51;
-  --bs-green-max-rgb: 146, 224, 64;
+  --bs-green-max-rgb: 160, 224, 64;
   --bs-color0-rgb: 246, 173, 128;
   --bs-color1-rgb: 255, 144, 144;
   --bs-color2-rgb: 217, 137, 181;
   --bs-color3-rgb: 141, 158, 255;
   --bs-color4-rgb: 164, 190, 124;
+  --bs-color5-rgb: 37, 146, 133;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-rgb: 33, 37, 41;
@@ -7928,6 +7929,11 @@ textarea.form-control-lg {
 .bg-color4 {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-color4-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-color5 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-color5-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
