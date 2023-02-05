@@ -75,6 +75,7 @@
   --bs-color7-rgb: 247, 223, 30;
   --bs-color8-rgb: 156, 189, 0;
   --bs-color9-rgb: 212, 160, 116;
+  --bs-color10-rgb: 13, 110, 165;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-rgb: 33, 37, 41;
@@ -7958,6 +7959,11 @@ textarea.form-control-lg {
 .bg-color9 {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-color9-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-color10 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-color10-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
