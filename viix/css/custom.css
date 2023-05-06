@@ -1,0 +1,85 @@
+/*Modal login start*/
+#login-with-social .modal-content{
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+#login-with-social .close{
+    font-size: 26px;
+}
+
+#login-with-social .modal-header{
+    border: 0;
+    padding: 15px 15px 0 0;
+}
+
+#login-with-social .modal-body{
+    padding: 0;
+}
+#login-with-social .modal-body .modal-auth-title{
+    font-size: 25px;
+    color: #3097d1;
+    margin-bottom: 35px;
+}
+.modal-facebook:hover{
+    background-color: #365899;
+    color: #fff !important;
+}
+.modal-facebook:focus{
+    background-color: #365899;
+    color: #fff !important;
+}
+.modal-google:hover{
+    background-color: #d93123;
+    color: #fff !important;
+}
+.modal-facebook:hover .fa-facebook-f:before,
+.modal-google:hover .fa-google-plus-g:before{
+    color: #fff !important;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    border-color: #3b5998;
+    color: #fff;
+}
+
+.modal-google, .modal-facebook {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.modal-google {
+    background-color: #ea4335;
+}
+
+.link_more {
+    font-size: 36px;
+}
+
+.modal-facebook {
+    background-color: #4267b2;
+}
+
+.modal-facebook .fa-facebook-f:before,
+.modal-google .fa-google-plus-g:before {
+    color: #ffffff;
+}
+
+.pointer-events-none{
+    pointer-events: none;
+}
+.nounderline {
+    text-decoration: none !important
+}
+.post-title{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
+.post-body{
+    font-size: 14px;
+    line-height: 22px;
+}
